@@ -1,0 +1,23 @@
+.btn {
+    width: 194px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: $icons-buttons-color;
+    font-size: 12px;
+    color: $white-color;
+    font-family: $page-font;
+    font-weight: $thick-font;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    align-content: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        background-color: $white-color;
+        color: $icons-buttons-color;
+    }
+}
