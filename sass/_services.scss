@@ -1,0 +1,117 @@
+.services {
+    background-color: #000;
+    font-family: $page-font;
+}
+.services-header {
+    text-align: center;
+    text-transform: uppercase;
+    h1 {
+        font-weight: 600;
+        font-size: 30px;
+        padding-top: 63px;
+        margin-bottom: 0;
+        color: $white-color;
+        margin-top: 0;
+    }
+    p {
+        font-size: 16px;
+        font-weight: $thick-font;
+        color: #AEAEAE;
+        margin-top: 8px;
+        margin-bottom: 0;
+        padding-bottom: 84px;
+
+    }
+}
+
+.icon {
+    fill: $icons-buttons-color;
+    background-color: #000;
+    padding: 0;
+    margin: 0;
+}
+
+.icon-quality,
+.icon-clock,
+.icon-support {
+   width: 58px;
+   height: 58px; 
+}
+
+.icon-star {
+    width: 64px;
+    height: 64px;
+}
+
+.service-name {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 75px;
+    font-weight: $thick-font;
+    color: $white-color;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 1.4;
+}
+
+.service-description {
+    width: 256px;
+    height: 109px;
+    font-size: $page-font-size;
+    letter-spacing: 0px;
+    color: #777777;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.8;
+    padding-bottom: 50px;
+}
+
+.icon-ring {
+    width: 70px;
+	height: 70px;
+    margin: 0 3px;
+    background-color: #000;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.particular-service {
+    text-align: center;
+}
+
+@media(max-width: 767px) {
+    .services {
+        padding-bottom: $padding-bottom-small-screens;
+    }
+	
+}
+
+@media(min-width: 768px) {
+
+}
+
+@media(max-width: 992px) {
+	.particular-service {
+        padding-bottom: 40px;
+        padding-top: 10px;
+    }
+    .particular-service:last-child {
+        padding-bottom: 0;
+    }
+    .services {
+        padding-bottom: 60px;
+    }
+    .service-header {
+        h1 {
+            font-size: $paragraph-name-small-screens;
+        }
+    }
+}
+
+@media(min-width: 1300px) {
+    .services {
+        padding: 0 170px 60px 170px;
+    }
+}

@@ -23,13 +23,13 @@
 	@include grid('md');
 }
 
-@media(max-width: 992px) {
+@media(min-width: 992px) {
 	@include grid('lg');
-	body {
-		width: 100%;
-		margin:0;
-		padding: 0;
-	}
+	// body {
+	// 	width: 100%;
+	// 	margin:0;
+	// 	padding: 0;
+	// }
 }
 
 @media(min-width: 1200px) {
