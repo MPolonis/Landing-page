@@ -1,0 +1,138 @@
+.projects {
+    margin-bottom: 50px;
+}
+.projects-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $page-font;
+    h1 {
+        font-weight: 600;
+        font-size: 30px;
+        padding-top: 63px;
+        margin-bottom: 0;
+        color: #000;
+        margin-top: 0;
+    }
+    p {
+        font-size: 16px;
+        font-weight: $thick-font;
+        color: #AEAEAE;
+        margin-top: 8px;
+        margin-bottom: 0;
+        padding-bottom: 84px;
+
+    }
+}
+
+.menu {
+    margin: 0 auto;
+    display: flex;
+    width: 710px;
+    height: 58px;
+    border-radius: 25px;
+    background-color: #ededed;
+    border: 1px solid #cfcfcf;
+    text-align: center;
+    padding-left: 30px;
+    li {
+        display: inline-flex;
+        font-family: $page-font;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        
+        a {
+            text-decoration: none;
+            margin: auto;
+            padding: 0 17px;
+            position: relative;
+            color: #000;
+            text-align: center;
+            font-weight: 300;
+            &::before {
+            content: "";
+                height: 5px;
+                width: 100%;
+                background-color: $icons-buttons-color;
+                visibility: hidden;
+                position: absolute;
+                left: 0;
+                bottom: -20px;
+            }
+            &:hover {
+                &::before {
+                    visibility: visible;
+                }
+            }
+        }
+    }
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.line {
+    height: 57px;
+    width: 1px;
+    background-color: #cfcfcf;
+}
+.projects-gallery-all {
+    margin: 37px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project-gallery {
+    margin: 15px;
+}
+
+.hvr-box {
+	position: relative;
+	overflow: hidden;
+	max-width: 100%;
+	height: 100%;
+}
+.hvr-box .hvr-bottom {
+	display: block;
+}
+.hvr-box .hvr-top {
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	width: 255px;
+	height: 165px;
+    display: none;
+    padding: 0;
+}
+
+.hvr-box:hover .hvr-top {
+	display: block;
+	cursor: pointer;
+}
+
+.hvr-discription {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: $page-font;
+    font-weight: 400;
+    h1 {
+        font-size: 20px;
+        padding-top: 35px;
+    }
+    p {
+        font-size: 12px;
+        line-height: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+    .menu-mobile {
+        display: block;
+    }
+}

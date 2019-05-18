@@ -21,3 +21,20 @@
         color: $icons-buttons-color;
     }
 }
+
+.btn-projects,
+.btn-projects-menu {
+    background-color: #000;
+    color: $white-color;
+    margin: 29px 0 20px 0;
+    margin: 0 auto;
+    &:hover {
+        background-color: #000;
+        color: $white-color;
+    }
+}
+
+.btn-projects-menu {
+    margin: 10px auto;
+    border-radius: 0;
+}
