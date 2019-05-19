@@ -31,15 +31,6 @@
     line-height: 1.8;
 }
 
-button.about-btn {
-    text-transform: uppercase;
-    margin: 33px 0;
-    &:hover {
-        background-color: $icons-buttons-color;
-        color: $white-color;
-    }
-}
-
 .about-video {
     &:hover {
         cursor: pointer;
@@ -52,7 +43,7 @@ button.about-btn {
         margin: 0 20px;
     }
     button.about-btn {
-        margin: 33px auto;
+        margin: 33px auto !important;
     }
     .about-video {
         width: 100%;

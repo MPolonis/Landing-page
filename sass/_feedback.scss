@@ -1,0 +1,47 @@
+.feedback {
+    background-color: #ededed;
+    border-bottom: 1px solid #cfcfcf;
+}
+.feedback-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $page-font;
+    h1 {
+        font-weight: 600;
+        font-size: 30px;
+        padding-top: 63px;
+        margin-bottom: 0;
+        color: #000;
+        margin-top: 0;
+    }
+    p {
+        font-size: 16px;
+        font-weight: $thick-font;
+        color: #AEAEAE;
+        margin-top: 8px;
+        margin-bottom: 0;
+        padding-bottom: 84px;
+
+    }
+}
+
+.feedback-client {
+    text-align: center;
+    font-family: $page-font;
+    h1 {
+        font-size: 24px;
+        font-weight: $thick-font;
+    }
+    h2 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    p {
+        margin: 18px auto;
+        line-height: 1.8;
+        font-size: 14px;
+        font-weight: 300;
+        color: #7e7e7e;
+    }
+
+}

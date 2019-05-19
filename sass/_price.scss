@@ -1,0 +1,82 @@
+.price {
+    background-color: #ededed;
+    border-bottom: 1px solid #cfcfcf;
+}
+.price-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $page-font;
+    h1 {
+        font-weight: 600;
+        font-size: 30px;
+        padding-top: 63px;
+        margin-bottom: 0;
+        color: #000;
+        margin-top: 0;
+    }
+    p {
+        font-size: 16px;
+        font-weight: $thick-font;
+        color: #AEAEAE;
+        margin-top: 8px;
+        margin-bottom: 0;
+        padding-bottom: 84px;
+
+    }
+}
+
+.price-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.price-product {
+    margin: 0 15px 60px;
+    width: 256px;
+    height: auto;
+    background-color: $white-color;
+    font-family: $page-font;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.6;
+    color: #242424;
+    h1 {
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-top: 30px;
+    }
+    h2 {
+        font-size: 30px;
+        font-weight: $thick-font;
+        //margin-bottom: 0;
+        margin: 0;
+    }
+    h3 {
+        font-size: 10px;
+        color: #aeaeae;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+        margin-bottom: 23px;
+    }
+    p {
+        font-size: 10px;
+        color: #7e7e7e;
+        position: relative;
+        line-height: 1.8;
+        &::after {
+            content: "";
+            height: 1px;
+            width: 7px;
+            visibility: visible;
+            background-color: #7e7e7e;
+            position: absolute;
+            bottom: -5px;
+            left: 125px;
+        }
+        &:last-child::after {
+            visibility: hidden;
+        }
+    }
+}

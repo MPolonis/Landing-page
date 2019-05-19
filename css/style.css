@@ -944,16 +944,6 @@ template {
   line-height: 1.8;
 }
 
-button.about-btn {
-  text-transform: uppercase;
-  margin: 33px 0;
-}
-
-button.about-btn:hover {
-  background-color: #b88b58;
-  color: #fff;
-}
-
 .about-video:hover {
   cursor: pointer;
   opacity: 0.8;
@@ -964,7 +954,7 @@ button.about-btn:hover {
     margin: 0 20px;
   }
   button.about-btn {
-    margin: 33px auto;
+    margin: 33px auto !important;
   }
   .about-video {
     width: 100%;
@@ -1250,6 +1240,452 @@ button.about-btn:hover {
   }
 }
 
+.team {
+  background-image: url(../images/team-background.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.team-header {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 42px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.team-header h1 {
+  font-weight: 600;
+  font-size: 30px;
+  padding-top: 63px;
+  margin-bottom: 0;
+  color: #fff;
+  margin-top: 0;
+}
+
+.team-header p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #AEAEAE;
+  margin-top: 8px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.team-photo {
+  margin-top: 49px;
+}
+
+.team-worker {
+  margin: 0 30px 100px;
+  width: 350px;
+  height: 100%;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.team-worker h1 {
+  font-size: 21px;
+  text-transform: uppercase;
+  margin: 40px 0 0 0;
+}
+
+.team-worker p {
+  color: #242424;
+  margin: 0 0 40px 0;
+  font-size: 14px;
+  padding: 0;
+}
+
+.icon-btn {
+  width: 34px;
+  height: 34px;
+  border: 0;
+  outline: none;
+  color: #FFF;
+  border-radius: 20px;
+  background-color: #bebebe;
+  margin-bottom: 40px;
+  cursor: pointer;
+  font-size: 19px;
+}
+
+.icon-btn:hover {
+  background-color: #b88b58;
+}
+
+.twitter,
+.instagram,
+.facebook,
+.youtube,
+.google {
+  color: #fff;
+}
+
+.twitter-footer,
+.facebook-footer,
+.pinterest-footer,
+.google-footer {
+  color: #f9f9f9;
+  background-color: #222;
+}
+
+.twitter-footer:hover,
+.facebook-footer:hover,
+.pinterest-footer:hover,
+.google-footer:hover {
+  color: #222;
+  background-color: #f9f9f9;
+}
+
+.team-all {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.feedback {
+  background-color: #ededed;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.feedback-header {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+.feedback-header h1 {
+  font-weight: 600;
+  font-size: 30px;
+  padding-top: 63px;
+  margin-bottom: 0;
+  color: #000;
+  margin-top: 0;
+}
+
+.feedback-header p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #AEAEAE;
+  margin-top: 8px;
+  margin-bottom: 0;
+  padding-bottom: 84px;
+}
+
+.feedback-client {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.feedback-client h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.feedback-client h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.feedback-client p {
+  margin: 18px auto;
+  line-height: 1.8;
+  font-size: 14px;
+  font-weight: 300;
+  color: #7e7e7e;
+}
+
+.brands {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.brands-pic {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  text-align: center;
+}
+
+.brands-pic img {
+  margin: 50px;
+}
+
+.price {
+  background-color: #ededed;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.price-header {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+.price-header h1 {
+  font-weight: 600;
+  font-size: 30px;
+  padding-top: 63px;
+  margin-bottom: 0;
+  color: #000;
+  margin-top: 0;
+}
+
+.price-header p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #AEAEAE;
+  margin-top: 8px;
+  margin-bottom: 0;
+  padding-bottom: 84px;
+}
+
+.price-all {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.price-product {
+  margin: 0 15px 60px;
+  width: 256px;
+  height: auto;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.6;
+  color: #242424;
+}
+
+.price-product h1 {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.price-product h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.price-product h3 {
+  font-size: 10px;
+  color: #aeaeae;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  margin-bottom: 23px;
+}
+
+.price-product p {
+  font-size: 10px;
+  color: #7e7e7e;
+  position: relative;
+  line-height: 1.8;
+}
+
+.price-product p::after {
+  content: "";
+  height: 1px;
+  width: 7px;
+  visibility: visible;
+  background-color: #7e7e7e;
+  position: absolute;
+  bottom: -5px;
+  left: 125px;
+}
+
+.price-product p:last-child::after {
+  visibility: hidden;
+}
+
+.premium-header {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+.premium-header h1 {
+  font-weight: 600;
+  font-size: 30px;
+  padding-top: 63px;
+  margin-bottom: 0;
+  color: #000;
+  margin-top: 0;
+}
+
+.premium-header p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #AEAEAE;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.premium-discription {
+  padding-left: 140px;
+  margin-top: 80px;
+}
+
+.premium-sign {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.8;
+}
+
+.premium-sign h1 {
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.premium-sign p {
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.premium-sign .feature-all {
+  text-transform: uppercase;
+}
+
+.premium-sign::before {
+  position: absolute;
+  content: url(../images/premium02.png);
+  left: -70px;
+}
+
+.premium-box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  margin-top: 37px;
+}
+
+@media (max-width: 450px) {
+  .premium-box img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 992px) {
+  .premium-box {
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  .premium-discription {
+    padding-left: 110px;
+    margin-top: 40px;
+  }
+}
+
+.facts {
+  background-color: #000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.facts-header {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.facts-header h1 {
+  font-weight: 600;
+  font-size: 30px;
+  padding-top: 63px;
+  margin-bottom: 0;
+  color: #fff;
+  margin-top: 0;
+}
+
+.facts-header p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #AEAEAE;
+  margin-top: 8px;
+  margin-bottom: 0;
+  padding-bottom: 50px;
+}
+
+.facts-all {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.particular-fact {
+  text-align: center;
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.particular-fact h1 {
+  font-size: 48px;
+  color: #b88b58;
+  font-weight: 700;
+  position: relative;
+}
+
+.particular-fact h1::after {
+  content: "";
+  height: 4px;
+  width: 20px;
+  visibility: visible;
+  background-color: #7e7e7e;
+  position: absolute;
+  top: 57px;
+  left: 140px;
+}
+
+.particular-fact h2 {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 75px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+.fact-description {
+  width: 256px;
+  height: 109px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #777777;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.photos,
+.exhibitions {
+  margin-top: 40px;
+}
+
 .btn {
   width: 194px;
   height: 45px;
@@ -1279,6 +1715,22 @@ button.about-btn:hover {
   color: #b88b58;
 }
 
+button.about-btn,
+.btn-premium {
+  text-transform: uppercase;
+  margin: 33px 0;
+}
+
+button.about-btn:hover,
+.btn-premium:hover {
+  background-color: #b88b58;
+  color: #fff;
+}
+
+.btn-premium {
+  margin: 70px auto 60px;
+}
+
 .btn-projects,
 .btn-projects-menu {
   background-color: #000;
@@ -1296,5 +1748,17 @@ button.about-btn:hover {
 .btn-projects-menu {
   margin: 10px auto;
   border-radius: 0;
+}
+
+.btn-price {
+  width: 129px;
+  height: 45px;
+  background-color: #373737;
+  margin: 46px auto 51px;
+}
+
+.btn-price:hover {
+  background-color: #b88b58;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

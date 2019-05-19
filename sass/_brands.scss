@@ -1,0 +1,17 @@
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.brands-pic {
+    width: 100%;
+    height: auto;
+    background-color: $white-color;
+    text-align: center;
+    img {
+        margin: 50px;
+    }
+}
+

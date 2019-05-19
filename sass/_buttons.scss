@@ -22,6 +22,20 @@
     }
 }
 
+button.about-btn,
+.btn-premium {
+    text-transform: uppercase;
+    margin: 33px 0;
+    &:hover {
+        background-color: $icons-buttons-color;
+        color: $white-color;
+    }
+}
+
+.btn-premium {
+    margin: 70px auto 60px;
+}
+
 .btn-projects,
 .btn-projects-menu {
     background-color: #000;
@@ -37,4 +51,15 @@
 .btn-projects-menu {
     margin: 10px auto;
     border-radius: 0;
+}
+
+.btn-price {
+    width: 129px;
+    height: 45px;
+    background-color: #373737;
+    margin: 46px auto 51px;
+    &:hover {
+        background-color: $icons-buttons-color;
+        color: $white-color;
+    }
 }
