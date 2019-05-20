@@ -1686,6 +1686,263 @@ template {
   margin-top: 40px;
 }
 
+.social-all {
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.social-icon-btn {
+  width: 34px;
+  height: 34px;
+  border: 0;
+  outline: none;
+  color: #FFF;
+  border-radius: 20px;
+  background-color: #bebebe;
+  margin-bottom: 40px;
+  margin: 20px 0 20px 33px;
+  cursor: pointer;
+  font-size: 19px;
+}
+
+.social-icon-btn:hover {
+  background-color: #b88b58;
+}
+
+.social-icon-btn:first-child {
+  margin-left: 30px;
+}
+
+.social-twitter {
+  background-color: #33C5EF;
+}
+
+.social-linked-in {
+  background-color: #117BB3;
+}
+
+.social-facebook {
+  background-color: #336197;
+}
+
+.social-pinterest {
+  background-color: #B71B29;
+}
+
+.social-google {
+  background-color: #E74137;
+}
+
+.social-paragraph {
+  display: inline;
+  font-size: 10px;
+  color: #aeaeae;
+  padding-left: 5px;
+}
+
+.share-all {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+}
+
+.share-all img {
+  margin-right: 15px;
+}
+
+.share-inscription {
+  margin-top: 30px;
+  display: inline-block;
+  font-size: 14px;
+  color: #aeaeae;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.share-icon {
+  height: 26px;
+  width: 23px;
+  fill: #bdbdbd;
+  margin-right: 15px;
+  margin-top: 25px;
+}
+
+@media (max-width: 992px) {
+  .social-all {
+    text-align: center;
+  }
+  .share-all {
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+}
+
+.contact {
+  background-color: #ededed;
+  border-bottom: 1px solid #cfcfcf;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 76px;
+}
+
+.contact-header {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-header h1 {
+  font-weight: 600;
+  font-size: 30px;
+  padding-top: 63px;
+  margin-bottom: 0;
+  color: #000;
+  margin-top: 0;
+}
+
+.contact-header p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #AEAEAE;
+  margin-top: 8px;
+  margin-bottom: 0;
+  padding-bottom: 84px;
+}
+
+.contact-form {
+  font-size: 13px;
+  color: #9e9e9e;
+  font-weight: 300;
+  margin-top: 93px;
+  margin: 0 auto;
+  max-width: 540px;
+}
+
+.contact-form div {
+  border-bottom: 2px solid #9e9e9e;
+  width: inherit;
+  margin-bottom: 46px;
+}
+
+.contact-form div:last-child {
+  margin-top: 88px;
+}
+
+.contact-form div input {
+  border: none;
+  background-color: #ededed;
+  width: inherit;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  outline: none;
+}
+
+.contact-form .contact-short-line {
+  width: 255px;
+  display: inline-block;
+}
+
+.contact-form .contact-short-line:first-child {
+  margin-right: 26px;
+}
+
+.placeholder {
+  font-size: 13px;
+  color: #9e9e9e;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .contact-form .contact-short-line {
+    display: block;
+  }
+  .contact-form .contact-short-line:first-child {
+    margin: 0 auto 46px;
+  }
+  .contact-form .contact-long-line {
+    width: 255px;
+  }
+  .contact-form .contact-short-line,
+  .contact-form .contact-long-line {
+    margin: 0 auto 46px;
+  }
+}
+
+.map {
+  background-image: url(../images/map.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.info-place {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+}
+
+.info-map {
+  margin: 36px 0 36px 244px;
+  width: 541px;
+  height: 100%;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.map-icon-btn {
+  width: 34px;
+  height: 34px;
+  border: 0;
+  outline: none;
+  color: #FFF;
+  border-radius: 20px;
+  background-color: #bebebe;
+  margin: 7px 0 7px 40px;
+  font-size: 19px;
+}
+
+.map-icon-btn img {
+  margin-top: 3px;
+}
+
+.info-particular {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+}
+
+.envelop-icon {
+  margin-top: 56px;
+}
+
+.web-icon {
+  margin-bottom: 60px;
+}
+
+.map-paragraph {
+  font-size: 12px;
+  color: #7e7e7e;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  margin-left: 17px;
+}
+
+.map-paragraph-first {
+  margin-top: 62px;
+}
+
+@media (max-width: 992px) {
+  .info-map {
+    margin: 36px auto;
+  }
+}
+
 .btn {
   width: 194px;
   height: 45px;
@@ -1760,5 +2017,9 @@ button.about-btn:hover,
 .btn-price:hover {
   background-color: #b88b58;
   color: #fff;
+}
+
+.contact-btn {
+  margin-top: 5px;
 }
 /*# sourceMappingURL=style.css.map */
