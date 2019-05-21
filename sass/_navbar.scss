@@ -6,12 +6,24 @@
     background-position: center;
 }
 .navbar {
-    position: absolute;
     top: 0;
     right: 0;
     height: 100px;
     width: 100%;
     background-color: #000;
+    position: relative;
+    .welcome-tele {
+        position: absolute;
+        top: 768px;
+        right: 85px;
+        border-radius: 50%;
+        width: 65px;
+        height: 65px;
+        outline: none;
+        border: none;
+        background-color: $icons-buttons-color;
+        cursor: pointer;
+}
 }
 
 .nav-top {
@@ -151,7 +163,6 @@
   display: inline-block;
 }
 
-
 @media(max-width: 768px) {
     .menu-on-normal-screens {
         display: none;
@@ -221,5 +232,11 @@
             }
         }
         
+    }
+}
+
+@media(min-width: 1601px) {
+    .nav-top {
+        padding-right: 80px;
     }
 }
