@@ -75,8 +75,8 @@
             bottom: -5px;
             left: 125px;
         }
-        &:last-child::after {
-            visibility: hidden;
-        }
+        &:last-of-type::after {
+                visibility: hidden;
+            }
     }
 }
