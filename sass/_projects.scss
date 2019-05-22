@@ -135,4 +135,11 @@
     .menu-mobile {
         display: block;
     }
+    .project-gallery {
+        margin: 15px auto;
+        width: 100%;
+    }
+    .hvr-box:hover .hvr-top {
+        display: none;
+    }
 }
