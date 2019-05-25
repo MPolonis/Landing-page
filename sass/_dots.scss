@@ -1,0 +1,39 @@
+
+.dots-all {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 130px;
+    list-style: none;
+    .dot-btn {
+      display: inline-block;
+      margin-left: 12px;
+      border: 2px solid $icons-buttons-color;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      padding: 0;
+      outline: none;
+      cursor: pointer;
+      &:hover {
+        background-color: $icons-buttons-color;
+      }
+      &:first-child {
+          background-color: $icons-buttons-color;
+      }
+    }
+}
+
+.dots-team {
+    margin-top: 0;
+}
+
+.dots-feedback {
+    margin-top: 50px;
+    margin-bottom: 42px;
+}
+
+.dots-premium {
+    margin-top: 91px;
+    margin-bottom: 39px; 
+}

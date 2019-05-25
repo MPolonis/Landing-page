@@ -1,0 +1,80 @@
+.social-all {
+    font-family: $page-font;
+    border-bottom: 1px solid #cfcfcf;
+}
+.social-icon-btn {
+	width: 34px;
+	height: 34px;
+    border: 0;
+    outline: none;
+	color: #FFF;
+	border-radius: 20px;
+    background-color: #bebebe;
+    margin-bottom: 40px;
+    margin: 20px 0 20px 33px;
+    cursor: pointer;
+    font-size: 19px;
+    &:hover {
+        background-color: $icons-buttons-color;
+    }
+    &:first-child {
+        margin-left: 30px;
+    }
+}
+
+.social-twitter {
+    background-color: #33C5EF;
+}
+.social-linked-in {
+    background-color: #117BB3;
+}
+.social-facebook {
+    background-color: #336197;
+}
+.social-pinterest {
+    background-color: #B71B29;
+}
+.social-google {
+    background-color: #E74137;
+}
+
+.social-paragraph {
+    display: inline;
+    font-size: 10px;
+    color: #aeaeae;
+    padding-left: 5px;
+}
+
+.share-all {
+    display: flex;
+    justify-content: flex-end;
+    img {
+        margin-right: 15px;
+    }
+}
+
+.share-inscription {
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 14px;
+    color: #aeaeae;
+    font-weight: 600;
+    text-transform: uppercase; 
+}
+
+.share-icon {
+    height: 26px;
+    width: 23px;
+    fill: #bdbdbd;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+@media (max-width: 992px) {
+    .social-all {
+        text-align: center;
+    }
+    .share-all {
+        justify-content: center;
+    }
+}

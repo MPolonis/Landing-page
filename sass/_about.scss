@@ -1,0 +1,62 @@
+
+.about-header {
+    text-align: center;
+    font-family: $page-font;
+    text-transform: uppercase;
+    h1 {
+        font-weight: 600;
+        font-size: 30px;
+        padding-top: 63px;
+        margin-bottom: 0;
+        color: #222;
+        margin-top: 0;
+    }
+    p {
+        font-size: 16px;
+        font-weight: $thick-font;
+        color: #AEAEAE;
+        margin-top: 8px;
+        margin-bottom: 0;
+        padding-bottom: 84px;
+
+    }
+}
+
+.about-paragraph {
+    font-size: 14px;
+    color: #242424;
+    font-family: $page-font;
+    font-weight: 300; 
+    //margin-left: 170px;
+    line-height: 1.8;
+}
+
+.about-video {
+    &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+}
+
+@media(max-width: 992px) {
+    .about-paragraph {
+        margin: 0 20px;
+    }
+    button.about-btn {
+        margin: 33px auto !important;
+    }
+    .about-video {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        display: flex;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1170px) {
+    .about-video {
+        width: 400px;
+        display: flex;
+        margin: 0 auto;
+    }
+}
